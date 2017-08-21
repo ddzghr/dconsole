@@ -6,6 +6,10 @@
 package hr.zg.dd.console;
 
 
-public class DTableWindow extends DAbstractWindow {
+public class DDisplayWindow extends DAbstractWindow {
+
+    public DDisplayWindow(DAbstractComponent parent) {
+        super(parent);
+    }
     
 }

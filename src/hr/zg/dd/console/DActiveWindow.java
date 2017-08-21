@@ -5,10 +5,11 @@
  */
 package hr.zg.dd.console;
 
-/**
- *
- * @author ddukic
- */
-public class DDialogWindow extends DAbstractWindow{
+
+public abstract class DActiveWindow extends DAbstractWindow {
+
+    public DActiveWindow(DAbstractComponent parent) {
+        super(parent);
+    }
     
 }

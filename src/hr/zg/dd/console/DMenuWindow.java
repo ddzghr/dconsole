@@ -6,10 +6,10 @@
 package hr.zg.dd.console;
 
 
-public class DMenuWindow extends DAbstractWindow {
+public class DMenuWindow extends DActiveWindow {
 
-    public void add(DDisplayComponent component) {
-        super.dComponents.add(component);
+    public DMenuWindow(DAbstractComponent parent) {
+        super(parent);
     }
     
 }

@@ -6,6 +6,10 @@
 package hr.zg.dd.console;
 
 
-public class DInputComponent extends DDisplayComponent {
+public class DDialogWindowImpl extends DActiveWindow {
+
+    public DDialogWindowImpl(DAbstractComponent parent) {
+        super(parent);
+    }
     
 }
